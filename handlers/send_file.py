@@ -11,7 +11,7 @@ from handlers.helpers import str_to_b64
 async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"**👋[{}](tg://user?id={})💞Thanks for Using My Bot**\n\n"
+            f"**💞Thanks for Using My Bot**\n\n"
             f"__Uploaded By : https://t.me/+LFS3S9RT-_4zNWFl**__\n\n"
             f"__🤗It's Permanent Video File.Enjoy your day🤗__",
             disable_web_page_preview=True, quote=True)
