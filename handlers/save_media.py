@@ -48,7 +48,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=ESMFILE_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**The File Stored In my Database**\n"
+            f"**The File Stored In my Database**\n\n"
             f"Your Link 👉  {share_link} \n\n"
             f"Just Click the link to get your files!",
             parse_mode="Markdown",
@@ -89,7 +89,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=ESMFILE_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**📥The File Stored In My Database**\n**"
+            f"**📥The File Stored In My Database**\n\n**"
             f"✅ Your Link 👉 {share_link} \n\n"
             f"📌Just Click the link to get your file!",
             parse_mode="Markdown",
