@@ -1,8 +1,17 @@
 # Infinity FilesStoreBot
-This is Telegram Parmanent Files Store Bot by [@senuinfinity](https://github.com/SenuGamerBoy/FilesStoreBot).
+This is Telegram Parmanent Files Store Bot by [@EverseenMoviesv2]
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
+
+# Join Our Telegram Channel
+Download Latest Movies
+
+<a href="https://telegram.me/+LFS3S9RT-_4zNWFl"><img src="https://img.shields.io/chocolatey/dt/git?label=EverseenMovies&logo=telegram&style=for-the-badge"></a>
+
+
+[![MAXX LEECH](https://telegra.ph/file/29d788a656dd517eafd0a.png)](https://telegram.dog/+LFS3S9RT-_4zNWFl) 
+
 
 ### Features:
 - In PM Just Forward or Send any file it will save on Database & give you the Access Link.
@@ -35,8 +44,6 @@ This is Telegram Parmanent Files Store Bot by [@senuinfinity](https://github.com
 - `BANNED_CHAT_IDS` - All Banned Channel IDs *(Optional)*
 	- Put all banned channel IDs & Separate with space.
 
-### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SenuGamerBoy/FilesStoreBot)
 
 ## Commands:
 ```
@@ -50,4 +57,4 @@ banned_users - Get All Banned Users [Owner Only]
 ```
 
 ### Support Group:
-<a href="https://t.me/senuinfinitygroup"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Everseen_Movies"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
