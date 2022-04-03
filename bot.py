@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/groupdc"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Everseen_Movies"),
+                        InlineKeyboardButton("Bots Channel", url="http://t.me/+LFS3S9RT-_4zNWFl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -88,7 +88,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/groupdcbots)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/Everseen_Movies)",
                                      disable_web_page_preview=True)
             return
 
@@ -280,10 +280,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
-                    ],
+                    
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs")
@@ -299,10 +296,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
-                    ],
+                    
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
@@ -319,8 +313,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/groupdc"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Everseen_Movies"),
+                        InlineKeyboardButton("Bots Channel", url="http://t.me/+LFS3S9RT-_4zNWFl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -336,7 +330,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Boss 😥. Contact my [Support Group](https://t.me/groupdcbots).",
+                        text="Boss 😥. Contact my [Support Group](https://t.me/Everseen_Movies).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -372,8 +366,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Everseen_Movies"),
+                        InlineKeyboardButton("Bots Channel", url="http://t.me/+LFS3S9RT-_4zNWFl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
