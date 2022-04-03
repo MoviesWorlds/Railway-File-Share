@@ -13,7 +13,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="sir, සමාවෙන්න ඔයාව ban කරලා තියන්නේ . support group එකෙන් අහල බලන්න [Support Group](https://t.me/groupdcbots).",
+                text="sir, සමාවෙන්න ඔයාව ban කරලා තියන්නේ . support group එකෙන් අහල බලන්න [Support Group](https://t.me/Everseen_Movies).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -46,7 +46,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/groupdc).",
+            text="Something went Wrong. Contact my [Support Group](https://t.me/Everseen_Movies).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
