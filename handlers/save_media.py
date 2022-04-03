@@ -89,7 +89,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=ESMFILE_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"✅ Link 👉 {share_link} \n\n"
+            f"**📥The File Stored In My Database**\n**"
+            f"✅ Your Link 👉 {share_link} \n\n"
             f"📌Just Click the link to get your file!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
