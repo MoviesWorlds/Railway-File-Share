@@ -39,11 +39,9 @@ The files are Stored In Mydatabase. Also works for channel. Add me to channel as
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @EverseenMoviesofficial
 
-Do you Want Any Bot Contact Admin.
-
 💲**Donate Now:** @EverseenMoviesofficial
 
-📌Create Any Bot Contact Admin
+📌Create Any Bot Contact Admin @EverseenMoviesofficial
 
 """
 	HOME_TEXT = """
