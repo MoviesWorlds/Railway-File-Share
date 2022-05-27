@@ -39,9 +39,9 @@ The files are Stored In Mydatabase. Also works for channel. Add me to channel as
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @EverseenMoviesofficial
 
-Do you Want Any Bot Contact Admin. Cheapest price 10₹ Bots .Donate Now (Paytm).
+Do you Want Any Bot Contact Admin.
 
-💲**Donate Now:** [Paytm] 8838551405
+💲**Donate Now:** @EverseenMoviesofficial
 
 📌Create Any Bot Contact Admin
 
