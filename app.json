@@ -7,9 +7,9 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/SenuGamerBoy/FilesStoreBot",
-    "website": "https://github.com/SenuGamerBoy",
-    "success_url": "https://t.me/senuinfinity",
+    "repository": "https://github.com/MoviesWorlds/FilesStoreBot",
+    "website": "https://github.com/MoviesWorlds",
+    "success_url": "http://t.me/+LFS3S9RT-_4zNWFl",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
